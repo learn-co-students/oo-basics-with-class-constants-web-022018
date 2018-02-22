@@ -12,12 +12,7 @@ class Shoe
     BRANDS.uniq!
   end
 
-  # def brand=(brand)
-  #   @gbrand = brand
-  #   BRANDS << genre
-  #   BRANDS.uniq
 
-  # end
 
   def cobble
     self.condition = "new"
